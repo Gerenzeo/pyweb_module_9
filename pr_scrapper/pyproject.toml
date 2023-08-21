@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pr-scrapper"
+version = "0.1.0"
+description = ""
+authors = ["Gerenzeo <124388411+Gerenzeo@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pr_scrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
